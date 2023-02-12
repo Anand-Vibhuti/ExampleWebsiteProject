@@ -1,0 +1,47 @@
+.nav{
+    background-color: rgb(5,5,50); text-decoration: none;
+    border: 1px solid rgb(5,5,50);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 59px;
+    margin-right: 59px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding:5px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    color: rgb(193, 196, 199);
+    
+     
+    justify-content: space-evenly;
+    
+
+
+}/*changing the default browser styles*/
+
+.pnav{
+    background-color: rgb(5,5,50);
+    height:fit-content;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid rgb(5,5,50);
+}/*styling the navigation bar*/
+body{
+    background-color: rgb(5,5,50);
+    margin: 0%;
+    padding: 0%;
+    border: none;
+}/*changing the background color of the page*/
+.logo{
+    width: 140px;
+    height: 140px;
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 140px;
+}/*changing the size of the logo*//*changing general elements of the page */
+h2{color: aliceblue;font-size: 35px;text-align: center;}
+a{text-decoration: none;border-radius: 50%;}
+.ximg{border-radius: 50%;width: 500px;height: 500px;display: flex;border:1px solid whitesmoke;flex-flow: initial;border-bottom: 9px;margin-bottom: 35px;margin-left: 35%;}
+hr{color: white;position: sticky;background-color: white;}
+.footer{color: aliceblue;text-align: center;}/*styling the footer*/
+@media screen and (max-width:900px){ .pnav{display:flex;flex-direction: column;margin-left: 0px;padding-left: 0%;height: 500px;width: 500px;}.ximg{margin-left: 0%;}}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeline</title><!--title of the page-->
+    <link rel="stylesheet" href="Timeline.css"><!--linking CSS file-->
+    <script src="Javascript files/timeline.js"></script><!--linking js file-->
+</head>
+<body>
+
+
+
+<div>
+    <nav class="pnav"><!--navigation bar-->
+       <a href="index.html" > <img src="xlogox.png" alt="space'ing" class="logo"></a>
+        <a href="Timeline.html" class="nav">Timeline</a>
+        <a href="Buzz.html" class="nav">Buzz</a>
+        <a href="Ocean_and_ships.html" class="nav">Ocean and ships</a>
+        <a href="Ask_a_question.html" class="nav">Ask a question</a>
+        <a href="Future_projects.html" class="nav">Future projects</a>
+    </nav></div>
+    <hr class="header">
+
+    
+    <h1>Please use keys from 0 to 7 to navigate</h1><!--intructions to use the page-->
+
+    <iframe src="https://www.youtube.com/embed/dtZ8MxuePno" width="500px" height="500px" class="zvideo z1"></iframe>
+    <h2 class="headings zx1">1903:First flying airplane,The Wright Brothers</h2>
+    <iframe src="https://www.youtube.com/embed/apWd65fF77o" width="500px" height="500px" class="zvideo"></iframe>
+    <h2 class="headings">First Commercial Flight</h2>
+    <iframe src="https://www.youtube.com/embed/thSFVvXgHxc" width="500px" height="500px" class="zvideo"></iframe>
+    <h2 class="headings">First MultiPassanger Commercial Flight</h2>
+    <iframe src="https://www.youtube.com/embed/Syj__VRv0-E" width="500px" height="500px" class="zvideo"></iframe>
+    <h2 class="headings">1939: First Jet Airplane Flight</h2>
+    <iframe src="https://www.youtube.com/embed/DTDb3eKpPiw" width="500px" height="500px" class="zvideo"></iframe>
+    <h2 class="headings">1957: Sputnic-1, Earth's First Artificial Satellite</h2>
+    <iframe src="https://www.youtube.com/embed/JGMvpP2gGy8" width="500px" height="500px" class="zvideo"></iframe>
+    <h2 class="headings">1961: Yuri Gagarin, First man in the space</h2>
+    <iframe src="https://www.youtube.com/embed/G6A72ufn3l4" width="500px" height="500px" class="zvideo"></iframe>
+    <h2 class="headings">1969: Man on Moon</h2>
+    <iframe src="https://www.youtube.com/embed/ZPrB3WvnZpE" width="500px" height="500px" class="zvideo"></iframe>
+    <h2 class="headings">2021:Private Commercial flight to space</h2><!--JS to change the video according to user selection-->
+    <script>var z,zx,x,xz,zcount=0,zvisible;
+    z=document.querySelector('.z1');
+    zx=document.querySelector('.zx1');
+    zx.style.display="block";
+    z.style.display="block";
+    x=document.getElementsByClassName('zvideo');
+    xz=document.getElementsByClassName('headings');
+    var keys=addEventListener('keypress',function(event){
+        console.log("working");
+        if(event.key==1){
+            x[1].style.display="block";
+            xz[1].style.display="block";
+            x[0].style.display="none";
+            xz[0].style.display="none";
+        }
+        if(event.key==2){
+            x[2].style.display="block";
+            xz[2].style.display="block";
+            for(var zxzz=event.key-1;zxzz>=0;zxzz--){
+            x[zxzz].style.display="none";
+            xz[zxzz].style.display="none";}
+        }
+        if(event.key==3){
+            x[3].style.display="block";
+            xz[3].style.display="block";
+            for(var zxzz=event.key-1;zxzz>=0;zxzz--){
+            x[zxzz].style.display="none";
+            xz[zxzz].style.display="none";}
+        }
+        if(event.key==4){
+            x[4].style.display="block";
+            xz[4].style.display="block";
+            for(var zxzz=event.key-1;zxzz>=0;zxzz--){
+            x[zxzz].style.display="none";
+            xz[zxzz].style.display="none";}
+        }
+        if(event.key==5){
+            x[5].style.display="block";
+            xz[5].style.display="block";
+            for(var zxzz=event.key-1;zxzz>=0;zxzz--){
+            x[zxzz].style.display="none";
+            xz[zxzz].style.display="none";}
+        }
+        if(event.key==6){
+            x[6].style.display="block";
+            xz[6].style.display="block";
+            for(var zxzz=event.key-1;zxzz>=0;zxzz--){
+            x[zxzz].style.display="none";
+            xz[zxzz].style.display="none";}
+        }
+        if(event.key==7){
+            x[7].style.display="block";
+            xz[7].style.display="block";
+            for(var zxzz=event.key-1;zxzz>=0;zxzz--){
+            x[zxzz].style.display="none";
+            xz[zxzz].style.display="none";}
+        }
+        if(event.key==0){
+            x[0].style.display="block";
+            xz[0].style.display="block";
+            for(var zxzz=8-1;zxzz>0;zxzz--){
+            x[zxzz].style.display="none";
+            xz[zxzz].style.display="none";}
+
+        }
+        if(event.key==8){
+            x[0].style.display="block";
+            xz[0].style.display="block";
+            for(var zxzz=event.key-1;zxzz>0;zxzz--){
+            x[zxzz].style.display="none";
+            xz[zxzz].style.display="none";}
+        }
+        
+
+    })
+    </script>
+    <footer class="footer"><hr><!--footer of the page-->
+        No Rights Reserved,All Rights belong to original owner,used under Fair Use Law </footer>
+</body>
+</html>

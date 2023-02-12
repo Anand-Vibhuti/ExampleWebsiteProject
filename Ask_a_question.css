@@ -1,0 +1,72 @@
+.nav{
+    background-color: rgb(5,5,50); text-decoration: none;
+    
+   
+    margin-left: 59px;
+    margin-right: 59px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+   
+    
+    color: rgb(193, 196, 199);
+    position: relative;
+     
+    justify-content: space-evenly;
+    
+
+
+}/*changing the default styles of the browser*/
+
+.pnav{
+    background-color: rgb(5,5,50);
+    height:fit-content;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid rgb(5,5,50);
+}/*styling the navigation bar*/
+body{
+    background-color: rgb(5,5,50);
+    margin: 0%;
+    padding: 0%;
+    border: none;
+}/*changing the background color of the page*/
+.logo{
+    width: 140px;
+    height: 140px;
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 140px;
+}/*changing the size of the logo*/
+.qform{
+    color: floralwhite;display:flex;
+    flex-direction: column;
+    align-items:unset ;justify-content: right;
+    font-size: 29px;
+
+}/*changing the styles of form and different types of inputs*/
+
+
+#question{font-size: 29px;
+    height:500px;width: 900px;border-radius: 5px;margin-bottom: 14px;
+}
+#name{
+    width: 500px;height: 50px;border-radius: 5px;margin-bottom: 14px;
+}
+
+
+#address{width: 500px;border-radius: 5px;height: 50px;margin-bottom: 14px;}
+#email{
+    width: 500px;border-radius: 5px;height: 50px;margin-bottom: 14px;
+}
+#tel{width: 500px;border-radius: 5px;height: 50px;margin-bottom: 14px;}
+#submit{width: 90px;height: 40px;display:inline;margin-bottom: 5px;margin-left: 30%;}
+#cancel{
+    width: 90px;height: 40px;display:inline;margin-bottom: 5px;
+}
+hr{
+    color: white;background-color: white;
+}
+.footer{color: aliceblue;text-align: center;}/*styling the footer*/
+@media screen and (max-width:900px){ .pnav{display:flex;flex-direction: column;margin-left: 0px;padding-left: 0%;height: 500px;width: 500px;}#email{width: 400px;}#name{width: 400px;}#address{width: 400px;}#tel{width: 400px;} #question{width: 400px;}.nav{margin-bottom: 9%;}}
+/*changing the styling of the page in case the website is opened in smaller devices*/

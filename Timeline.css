@@ -1,0 +1,54 @@
+.nav{
+    background-color: rgb(5,5,50); text-decoration: none;
+    border: 1px solid rgb(5,5,50);
+    
+    
+    margin-left: 59px;
+    margin-right: 59px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding:5px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    color: rgb(193, 196, 199);
+    
+     
+    justify-content: space-evenly;
+    
+
+
+}/*for the nav bar area and to reduce the browser default margins and borders*/
+
+.pnav{
+    background-color: rgb(5,5,50);
+    height:fit-content;
+    
+    padding:5px;
+    border:1px solid rgb(5,5,50);
+} /*for changing the asthetics of the navigation bar  */
+body{
+    background-color: rgb(5,5,50);
+    margin: 0%;
+    padding: 0%;
+    border: none;
+}
+/*for changing the background color of the page and reducing default values of the browser margins and borders*/
+.logo{
+    width: 140px;
+    height: 140px;
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 140px;
+}/*changing the size of the logo*/
+.header{margin-top: 5px;
+border: 1px solid white; background-color: white;position:sticky;} /*positioning a header*/
+.zvideo{
+    border-radius: 5%;margin-top: 5%;margin-left: 35%;
+}/*changing the margins and border of the videos*/
+.headings{font-size: 35px;background-color: floralwhite;text-align: center;border-radius: 14%;}
+iframe{display:none;} /*hiding the video*/
+h2{display:none;}/*hiding the text of the video*/
+h1{text-align: center;color: aliceblue;}/*changing hte color of the text*/
+.footer{color: aliceblue;text-align: center;}/*changing hte color of the text*/
+@media screen and (max-width:900px){ .pnav{display:flex;flex-direction: column;margin-left: 0px;padding-left: 0%;height: 500px;width: 500px;} .zvideo{margin-left: 0%;width: 500px;}}
+/*for changing the elemets when website is opened in smaller devices*/

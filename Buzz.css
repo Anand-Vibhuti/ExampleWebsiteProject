@@ -1,0 +1,46 @@
+.nav{
+    background-color: rgb(5,5,50); text-decoration: none;
+    border: 1px solid rgb(5,5,50);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 59px;
+    margin-right: 59px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding:5px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    color: rgb(193, 196, 199);
+     justify-content: space-evenly;
+    }
+    /*changing the logo area and reducing the default margins*/
+
+.pnav{
+    background-color: rgb(5,5,50);
+    height:fit-content;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid rgb(5,5,50);
+} /*styling the nav bar*/
+body{
+    background-color: rgb(5,5,50);
+    
+   
+} /*changing the bodybackground color of the page*/
+.logo{
+    width: 140px;
+    height: 140px;
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 140px;
+}/*changing the size of the logo*/
+hr{
+    color: white;background-color: white;position: sticky;
+}
+.anchors{text-decoration: none;font-size: 30px; color: aliceblue;display: inline-block;width: 30%;}/*styling the anchors of the page*/
+.images{width:400px;height: 500px;display: inline-block;border-radius: 50px;border: 1px solid white;}/*styling the images of the page,changing the size*/
+.box{display:flex;flex-wrap: wrap;margin-left: 75px;text-align:center;}/*arranging different articles*/
+.headerbuzz{font-size: 35px;color: aliceblue;text-align: center;}/*styling the header of the page*/
+.footer{color: aliceblue;text-align: center;}/*styling the footer*/
+@media screen and (max-width:900px){ .pnav{display:flex;flex-direction: column;margin-left: 0px;padding-left: 0%;height: 500px;width: 500px;}.images{display: none;}a{margin-left: 0%;}}
+/*changing the display and positioning of the elements if the website is opened in smaller devices*/

@@ -1,0 +1,92 @@
+.nav{
+    background-color: rgb(5,5,50); text-decoration: none;
+    border: 1px solid rgb(5,5,50);
+    margin-left: 59px;
+    margin-right: 59px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 5px;
+    color: rgb(193, 196, 199);
+    display: inline-flex;
+    justify-content: space-evenly;
+    }/*changing the defaults set by browser*/
+
+.pnav{
+    background-color: rgb(5,5,50);
+    height:fit-content;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid rgb(5,5,50);
+    top: 5%;
+    width: 9000px
+}/*positioning ans styling the nav bar*/
+body{
+    background-color: rgb(5,5,50);
+    border: none;
+}/*changing the background color of the page*/
+.logo{
+    width: 140px;
+    height: 140px;
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 140px;
+}/*changing the size of the logo*/
+.box{ display: inline-block;
+color: white;
+background-color: rgb(5,5,50);text-align: center;
+font-size: 19px;width: 100%;
+} /*positioning and styling different eliments of figure and article*/
+.imgs{width:100%;border: 1px solid white;
+border-radius: 5%;}
+.header{
+    height:1px;
+    color: floralwhite;
+    background-color: floralwhite;
+   padding-top: 0px;
+    border: 0px;
+    border-radius: 5px;
+}
+.para{
+    color: white;font-size: 35px;
+    
+}
+.xref{ color: white;font-size: 29px;}
+.headerbuzz{
+    color: aliceblue;font-size: 35px;font-weight:100;animation:wiggle 2s linear infinite;
+}
+@keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }/*to make the words dynamic,changing the position*/
+    
+}
+figure{width: 40%; height: 400px;
+display:inline-block;}/*styling general figures*/
+ .smallimgs{height:400px}  /*styling certain images*/
+.spacefact{color: aliceblue;text-align: center;}/*styling the text*/
+.spacefactp{color: aliceblue;font-size: 18px;text-align: center;}/*styling the text*/
+a{text-decoration: none;}/*styling the text*/
+.footer{color: aliceblue;text-align: center;}/*styling the text*/
+.picture{color: aliceblue;text-align: center;}/*styling the text*/
+.video{color: aliceblue;text-align: center;}/*styling the text*/
+.videosrc{margin-left: 35%; border-radius: 5%;border: 1px solid white;}/*changing the size of the video*/
+@media screen and (max-width:900px){ .pnav{display:flex;flex-direction: column;margin-left: 0px;padding-left: 0%;height: 500px;width: 500px;} .videosrc{margin-left: 0px;}.nav{margin-bottom: 9%;}}
+/*changing the style if the website is opened in smaller devices*/
